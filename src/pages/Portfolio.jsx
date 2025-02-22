@@ -6,7 +6,7 @@ function Portfolio() {
       id: 1,
       title: "Weather.App",
       description: "Your Ultimate Travel Weather Companion",
-      image: "", 
+      image: "/images/weather-app.png", // Image stored in public/images
       deployedUrl: "https://hieu12-12.github.io/Weather.App/",
       github: "https://github.com/hieu12-12/Weather.App",
       className: "project-1"
@@ -15,7 +15,7 @@ function Portfolio() {
       id: 2,
       title: "Breaking News",
       description: "Stay Updated with Real-Time Events",
-      image: "",
+      image: "/images/breaking-news.png", // Update with your image file
       deployedUrl: "https://breaking-new.onrender.com/",
       github: "https://github.com/hieu12-12/Breaking-New",
       className: "project-2"
@@ -24,7 +24,7 @@ function Portfolio() {
       id: 3,
       title: "README Generator",
       description: "Effortlessly Create Professional README Files",
-      image: "",
+      image: "/images/readme-generator.png", // Update with your image file
       deployedUrl: "https://github.com/hieu12-12/README-Generator-/blob/main/README.md",
       github: "https://github.com/hieu12-12/README-Generator-",
       className: "project-3"
@@ -33,7 +33,7 @@ function Portfolio() {
       id: 4,
       title: "Vehicle Creator",
       description: "Customize and Generate Vehicles with Ease",
-      image: "",
+      image: "/images/vehicle-creator.png", // Update with your image file
       deployedUrl: "https://github.com/hieu12-12/Vehicle-Creator-/blob/main/README.md",
       github: "https://github.com/hieu12-12/Vehicle-Creator-",
       className: "project-4"
