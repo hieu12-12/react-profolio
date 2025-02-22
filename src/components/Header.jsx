@@ -9,9 +9,8 @@ function Header() {
   return (
     <header className="w-full bg-gradient-to-r from-gray-900 to-black shadow-lg">
       <nav className="container mx-auto flex items-center py-5 px-8">
-        {}
         <div className="flex-1">
-          <a href="/" className="block">
+          <a href="/about" className="block">
             <h1 className="text-4xl font-black text-white tracking-widest">
               {header.title}
             </h1>
