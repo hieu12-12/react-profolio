@@ -1,23 +1,56 @@
+import React from "react";
+
 function Header() {
   const header = {
-    title: "Sara J. Ryan",
+    title: "Hieu Tran",
     tagline: "Aspiring Full Stack Developer",
   };
 
   return (
-    <header>
-      <nav className="font-sans flex flex-col text-center content-center sm:flex-row sm:text-left sm:justify-between py-2 px-6 bg-gray-900 shadow sm:items-baseline w-full">
-        <div className="mb-2 sm:mb-0 inner">
-          <a className="text-4xl no-underline text-blue-400 font-serif">{header.title}</a>
-          <br />
-          <span className="font-mono text-sm text-gray-500">{header.tagline}</span>
+    <header className="w-full bg-gradient-to-r from-gray-900 to-black shadow-lg">
+      <nav className="container mx-auto flex items-center py-5 px-8">
+        {}
+        <div className="flex-1">
+          <a href="/" className="block">
+            <h1 className="text-4xl font-black text-white tracking-widest">
+              {header.title}
+            </h1>
+            <p className="text-lg text-gray-400 mt-1">
+              {header.tagline}
+            </p>
+          </a>
         </div>
-        <aside className="sm:mb-0 self-center">
-          <a href="/" className="text-md no-underline text-gray-300 hover:text-blue-400 ml-2 px-1">About</a>
-          <a href="/portfolio" className="text-md no-underline text-gray-300 hover:text-blue-400 ml-2 px-1">Portfolio</a>
-          <a href="/contact" className="text-md no-underline text-gray-300 hover:text-blue-400 ml-2 px-1">Contact</a>
-          <a href="/resume" className="text-md no-underline text-gray-300 hover:text-blue-400 ml-2 px-1">Resume</a>
-        </aside>
+
+        {/* Vertical Divider */}
+        <div className="hidden md:block h-12 w-px bg-gray-700 mx-8"></div>
+
+        {/* Right Section: Navigation */}
+        <div className="flex space-x-8">
+          <a
+            href="/about"
+            className="text-lg font-medium text-gray-300 hover:text-white transition duration-300"
+          >
+            About
+          </a>
+          <a
+            href="/portfolio"
+            className="text-lg font-medium text-gray-300 hover:text-white transition duration-300"
+          >
+            Portfolio
+          </a>
+          <a
+            href="/contact"
+            className="text-lg font-medium text-gray-300 hover:text-white transition duration-300"
+          >
+            Contact
+          </a>
+          <a
+            href="/resume"
+            className="text-lg font-medium text-gray-300 hover:text-white transition duration-300"
+          >
+            Resume
+          </a>
+        </div>
       </nav>
     </header>
   );
