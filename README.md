@@ -54,7 +54,7 @@ Installation
 
 Clone the repository:
 
-git clone <>
+git clone <https://github.com/hieu12-12/react-profolio>
 cd react-portfolio
 
 Install dependencies:
