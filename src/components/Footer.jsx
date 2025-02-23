@@ -43,7 +43,7 @@ function Footer() {
         {/* Copyright Section */}
         <div className="text-center md:text-right">
           <p className="text-sm">
-            &copy; 2024 <span className="font-semibold">All rights reserved</span>
+            &copy; 2025 <span className="font-semibold">All rights reserved</span>
           </p>
           <p className="mt-2 text-xs text-gray-400">
             Designed with passion by Hieu Tran
